@@ -14,3 +14,9 @@ console.log(studentJson)
 
 const studentObj = JSON.parse(studentJson)
 console.log(studentObj)
+
+
+// Fetch
+fetch("url")
+.then(res => res.json())
+.then(data => console.log(data))
