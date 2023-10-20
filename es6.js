@@ -27,3 +27,11 @@ console.log(number())
 console.log(isEven(20))
 console.log(addNumber(10,20))
 console.log(doMath(54,52,36))
+
+// Spread Operator
+const newNumbers = [...numbers]
+numbers.push(30)
+numbers.unshift(30)
+
+console.log(numbers)
+console.log(newNumbers)
