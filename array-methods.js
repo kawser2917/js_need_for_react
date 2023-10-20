@@ -21,3 +21,7 @@ products.forEach(product => {
         console.log(product.color)
     }
 })
+
+// filter 
+const specificProduct = products.filter( product => product.price < 5000)
+console.log(specificProduct)
