@@ -25,3 +25,9 @@ products.forEach(product => {
 // filter 
 const specificProduct = products.filter( product => product.price < 5000)
 console.log(specificProduct)
+
+// Find
+// This will give first element of matching
+const special = products.find( p => p.name.includes("n"))
+console.log(special)
+
